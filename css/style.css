@@ -349,7 +349,7 @@ header img {
   min-width: 320px;
   height: 50vh;
   text-align: center;
-  background-image: url('../assets/img/bitcoinbabyx2.jpg');
+  background-image: url('https://i.imgur.com/fXv00Hv.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -486,7 +486,7 @@ header img {
 .main-cards-container .card-plan-container .card-plan__ca .card-plan__icon {
   display: inline-block;
   padding: 15px;
-  background-image: url('../assets/icons/arrow-right.svg');
+  background-image: url('https://svgshare.com/i/Qwr.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -528,7 +528,7 @@ header img {
   align-self: center;
   width: 24px;
   height: 12px;
-  background-image: url('../assets/icons/arrow-down.svg');
+  background-image: url('https://svgshare.com/i/QxR.svg');
   background-repeat: no-repeat;
   background-size: center;
 }
