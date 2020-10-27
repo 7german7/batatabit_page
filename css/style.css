@@ -407,7 +407,6 @@ header img {
   width: auto;
   height: auto;
   display: flex;
-  flex-direction: row;
   gap: 20px;
 }
 
