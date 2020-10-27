@@ -89,13 +89,10 @@ header img {
   width: 13;
   height: 8px;
   padding-left: 10px;
-  background-image: url('../assets/icons/arrow-down.svg');
+  background-image: url('https://svgshare.com/i/Qwp.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-
-
 
 .main-exchange-container {
   position: relative;
@@ -181,7 +178,7 @@ header img {
 .exchangeItem__arrow-down {
   width: 12px;
   height: 12px;
-  background-image: url('../assets/icons/trending-down.svg');
+  background-image: url('https://svgshare.com/i/QxR.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -189,7 +186,7 @@ header img {
 .exchangeItem__arrow-up {
   width: 12px;
   height: 12px;
-  background-image: url('../assets/icons/trending-up.svg');
+  background-image: url('https://svgshare.com/i/Qv3.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -206,7 +203,7 @@ header img {
   width: 24px;
   height: 24px;
   padding: 0px 12px;
-  background-image: url('../assets/icons/arrow-right-1.svg');
+  background-image: url('https://svgshare.com/i/Qxi.svg');
   background-repeat: no-repeat;
   background-size: center;
 }
