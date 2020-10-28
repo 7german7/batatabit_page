@@ -1,0 +1,17 @@
+.main-cards-container {
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.main-tables__container {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.product-cards__container {
+  grid-template-columns: repeat(2, 288px);
+}
+
+.plans-questions__container {
+  grid-template-columns: repeat(4, 1fr);
+}

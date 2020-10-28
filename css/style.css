@@ -20,27 +20,34 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 header {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
   width: 100%;
   min-width: 320px;
   height: 334px;
   background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+  padding: 42px 15px 0px 15px;
 }
 
 body {
   font-size: 1.6rem;
 }
 
+.logo-img__container {
+  padding: 0px 20px;
+  margin-bottom: 36px;
+  width: 100%;
+  max-width: 600px;
+}
+
 header img {
-  padding-bottom: 36px;
+  width: 100%;
 }
 
 .header__title--container {
@@ -54,14 +61,16 @@ header img {
   line-height: 2.6rem;
   font-weight: 700;
   color: var(--just-white);
+  text-align: center;
 }
 
 .header__title--container p {
-  padding-bottom: 30px;
+  padding-bottom: 61px;
   font-size: 1.4rem;
   line-height: 1.8rem;
   font-weight: 500;
   color: var(--soft-orange);
+  text-align: center;
 }
 
 .header__buttom--float {
@@ -132,7 +141,16 @@ header img {
   padding-bottom: 48px;
 }
 
-.main-table-container {
+.main-tables__container {
+  width: 100%;
+  max-width: 726px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-tables__container .table__container {
   position: relative;
   align-self: center;
   width: 197px;
@@ -199,15 +217,6 @@ header img {
   left: calc(100% + 14px);
 }
 
-.main-table-container .arrow-slide-rigth {
-  width: 24px;
-  height: 24px;
-  padding: 0px 12px;
-  background-image: url('https://svgshare.com/i/Qxi.svg');
-  background-repeat: no-repeat;
-  background-size: center;
-}
-
 .main-table-container__button-values {
   position: absolute;
   top: calc(100% + 12px);
@@ -251,10 +260,10 @@ header img {
 
 .main-product-detail .batata-icon {
   position: absolute;
-  top: calc(0% - 8px);
-  left: calc(50% - 12px);
-  width: 24px;
-  height: 24px;
+  top: calc(0% - 20px);
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
   background-image: url('https://svgshare.com/i/QyE.svg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -279,25 +288,23 @@ header img {
   padding-bottom: 32px;
 }
 
-.main-product-detail .product-detail__card {
-  align-self: center;
-  width: 288px;
-  height: auto;
-  min-height: 150px;
-  padding: 25px 18px 0px 18px;
-  margin-bottom: 16px;
-  /* margin-right: 16px; */
-  background: var(--black);
-}
-
 .product-cards__container {
   align-self: center;
   position: relative;
-  display: flex;
+  display: grid;
+  grid-template-columns: 288px;
+  gap: 16px;
   justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
   width: 100%;
+}
+
+.main-product-detail .product-detail__card {
+  align-self: center;
+  height: auto;
+  height: 150px;
+  padding: 25px 18px 0px 18px;
+  /* margin-right: 16px; */
+  background: var(--black);
 }
 
 .icon-clock {
@@ -407,14 +414,13 @@ header img {
   width: auto;
   height: auto;
   display: flex;
-  gap: 20px;
 }
 
 .main-cards-container .card-plan-container {
   position: inherit;
   scroll-snap-align: center;
   padding-top: 31px;
-  margin-bottom: 64px;
+  margin: 0px 10px 64px;
   min-width: 190px;
   max-width: 223px;
   height: auto;
@@ -537,18 +543,16 @@ footer {
   width: 100%;
   min-width: 320px;
   height: auto;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding: 40px 75px 10px 75px;
   background: var(--bitcoin-orange);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
-footer .footer__container {
-  width: 70%;
+footer .footer__social-nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 footer .footer__social-nav ul {
@@ -559,6 +563,7 @@ footer .footer__social-nav ul {
 
 footer .footer__social-nav li {
   list-style: none;
+  padding-right: 10px;
   padding-bottom: 8px;
 }
 
@@ -568,6 +573,7 @@ footer .footer__social-nav li a {
 }
 
 footer .footer__img-container {
+  min-width: 64px;
   padding-top: 11px;
   text-align: center;
   color: var(--just-white);
