@@ -10,7 +10,21 @@
   <link href=“https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&display=swap” rel=“stylesheet”>
 </head>
 <body>
-  <header>
+  <!--Menu de Hamburguesa-->
+  <div id="button-menu__container" class="button-menu__container showButton" onclick="showMenu(this)">
+    <span class="button-menu__menu-icon"></span>
+  </div>
+  <div id="nav-menu__container" class="nav-menu__container hideMenu">
+    <ul>
+      <li><a id="hideMenu" onclick="hideMenu()"><span>X</span></a></li>
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#exchange">Tasas</a></li>
+      <li><a href="#benefits">Beneficios</a></li>
+      <li><a href="#plans">Planes</a></li>
+    </ul>
+  </div>
+  <!--Menu de Hamburguesa-->
+  <header id="home">
     <div class="logo-img__container">
       <img src="https://svgshare.com/i/Qwf.svg" alt="logo">
     </div>
@@ -21,7 +35,7 @@
     <a class="header__buttom--float" href="#plans">Conoce Nuestros Planes <span></span></a>
   </header>
   <main>
-    <section class="main-exchange-container">
+    <section id="exchange" class="main-exchange-container">
       <div class="main-exchange-container__img">
         <img class="imgBackground" src="https://svgshare.com/i/Qwq.svg" alt="bitcoin">
       </div>
@@ -100,7 +114,7 @@
         </article>
       </section>
     </section>
-    <section class="main-product-detail">
+    <section id="benefits" class="main-product-detail">
       <span class="batata-icon"></span>
       <div class="product-detail__title">
         <h2>Te ayudamos a tomar la mejor decisión, siempre.</h2>
@@ -188,5 +202,6 @@
       <p>® Batatabit 2020</p>
     </section>
   </footer>
+  <script src="./js/functions.js"></script>
 </body>
 </html>

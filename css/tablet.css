@@ -1,3 +1,52 @@
+/*Menu*/
+body .nav-menu__container {
+  width: 100%;
+  position: absolute;
+  height: auto;
+  background: transparent;
+  transition: none;
+}
+
+body .nav-menu__container ul {
+  flex-direction: row;
+  justify-content: center;
+}
+
+body .nav-menu__container ul li {
+  width: auto;
+  flex-direction: row;
+  border-bottom: none;
+}
+
+body .nav-menu__container ul li:hover {
+  background: transparent;
+  cursor: pointer;
+}
+
+body .nav-menu__container ul li:nth-of-type(1) {
+  cursor: default;
+  width: 0%;
+}
+
+body .nav-menu__container ul li a {
+  font-size: 3rem;
+}
+
+body .nav-menu__container ul li a:hover {
+  color: var(--bitcoin-orange);
+}
+
+.hide__list-item {
+  display: none;
+}
+
+/*Menu*/
+
+header {
+  padding: 100px 15px 0px 15px;
+  height: auto;
+}
+
 .main-cards-container {
   justify-content: center;
   overflow-x: hidden;
