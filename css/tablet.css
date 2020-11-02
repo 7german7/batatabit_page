@@ -7,6 +7,12 @@ body .nav-menu__container {
   transition: none;
 }
 
+body .fixed-top {
+  background: rgba(32, 30, 28, 0.85);
+  color: var(--just-white);
+  border-bottom: var(--warm-black);
+}
+
 body .nav-menu__container ul {
   flex-direction: row;
   justify-content: center;
